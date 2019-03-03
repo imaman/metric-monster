@@ -5,8 +5,8 @@ chai.use(chaiSubset);
 const {expect} = chai;
 
 import 'mocha';
-import {MetricCenterRecord, MetricType} from './MetricFactory'
-import {MetricCenterModel, Datapoint} from './MetricCenterModel'
+import { MetricCenterRecord, MetricType } from '../src/MetricFactory'
+import { MetricCenterModel } from '../src/MetricCenterModel'
 
 
 describe('MetricCenterModel', () => {
