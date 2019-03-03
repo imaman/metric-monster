@@ -5,11 +5,11 @@ chai.use(chaiSubset);
 const {expect} = chai;
 
 import 'mocha';
-import {AbstractGetDataPointsController, rateMapper} from './AbstractGetDataPointsController'
-import { Formula } from './DataTypes'
+import {AbstractGetDataPointsController, rateMapper} from '../src/AbstractGetDataPointsController'
+import { Formula } from '../src/DataTypes'
 import { QueryInput } from 'aws-sdk/clients/dynamodb';
-import { MetricType } from '../support/MetricFactory';
-import { Mapper } from './TimedStream';
+import { MetricType } from '../src/MetricFactory';
+import { Mapper } from '../src/TimedStream';
 
 
 class CustomGetDataPointsController extends AbstractGetDataPointsController {
