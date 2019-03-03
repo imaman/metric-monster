@@ -1,6 +1,6 @@
 import * as AWS from 'aws-sdk';
 import { QueryInput } from 'aws-sdk/clients/dynamodb'
-import { MetricType } from '../support/MetricFactory'
+import { MetricType } from './MetricFactory'
 import { TimedStream, Mapper } from './TimedStream'
 import { Timeframe, Query, Options, Formula, TimedStreamMapper } from './DataTypes';
 import { TimedRecord } from './TimedRecord'

@@ -38,6 +38,8 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "bigband-core": "^0.1.22"
+    "bigband-core": "^0.1.22",
+    "percentile": "^1.2.1",
+    "uuid": "^3.3.2"
   }
 }

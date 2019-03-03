@@ -5,10 +5,10 @@ chai.use(chaiSubset);
 const {expect} = chai;
 
 import 'mocha';
-import { TimedStream, Mapper } from '../../src/backend/TimedStream';
-import { MetricType } from '../../src/backend/MetricFactory'
-import { TimedRecord } from '../../src/backend/TimedRecord';
-import { Polyvalue } from '../../src/backend/Polyvalue';
+import { TimedStream, Mapper } from '../src/TimedStream';
+import { MetricType } from '../src/MetricFactory'
+import { TimedRecord } from '../src/TimedRecord';
+import { Polyvalue } from '../src/Polyvalue';
 
 const NO_OPTIONS = {}
 
